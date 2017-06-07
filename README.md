@@ -1,5 +1,5 @@
 # ims-seed-app
-Seed app to show data from Predix intelligent-mapping service on a map.
+Seed app to show data from Predix Intelligent Mapping service on a map.
 
 This is an example (server side and client side) that can be used to show some geospatial data stored in intelligent-mapping on a map.
 If the data presented is very small, then the whole of the collection stored in intelligent-mapping can be loaded in one go.

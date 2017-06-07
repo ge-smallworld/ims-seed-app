@@ -1,0 +1,15 @@
+---
+applications:
+  - name: ims-seed-app
+    random-route: true
+    memory: 250M
+    instances: 1
+    buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+    command: node server.js
+    env:
+      IMS_PREDIX_ZONE_ID: 'UUID...'
+      IMS_SUBTENANT_ID: 'A string that identifies a subtenant'
+      IMS_CLIENT_ID: 'A Client Id configured in UAA'
+      IMS_CLIENT_SECRET: 'The Client Secret'
+      IMS_UAA_INSTANCE_ID: 'The trusted Issuer for the IMS instance'
+
